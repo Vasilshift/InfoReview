@@ -1,0 +1,3 @@
+interface PersonInterface {
+    void run();
+}
