@@ -1,6 +1,6 @@
 package ALGORITHMS;
 
-public class BubbleSort_String {
+public class Sort_Bubble_String {
     public static void main(String[] args) {
         String[] poem = { "a", "z", "g", "b", "e" };
 

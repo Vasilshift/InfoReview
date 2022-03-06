@@ -2,7 +2,7 @@ package ALGORITHMS;
 
 import java.util.Arrays;
 
-public class BubbleSort_Int {
+public class Sort_Bubble_Int {
     public static void main(String[] args) {
         int[] arr = {2, 4, 7, 7, 5, 0, 7, 1};
         boolean swapped;

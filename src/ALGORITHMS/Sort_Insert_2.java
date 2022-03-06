@@ -1,6 +1,6 @@
 package ALGORITHMS;
 
-public class SortInsert {
+public class Sort_Insert_2 {
     public static void main(String[] args) {
         int[] arr = new int[]{2, 4, 7, 7, 5, 0};
         int sortRangeIndex = 1;

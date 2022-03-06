@@ -1,14 +1,10 @@
 package ALGORITHMS;
 
 import java.util.Arrays;
-//work variant
-public class SortiInserting {
-    public static void main(String[] args) {
-        int[] testData = {10, 4, 43, 5, 4, 67, 12,0, 99,19};
-        System.out.println(Arrays.toString(insertionSort(testData)));
-    }
 
-    public static int[] insertionSort(int[] array) {
+public class Sort_Insert {
+    public static void main(String[] args) {
+        int[] array = {5, 3, 1, 6, 7, 4, 7, 88};
         for (int i = 1; i < array.length; i++) {
             int current = array[i];
             int j = i - 1;
@@ -18,6 +14,9 @@ public class SortiInserting {
             }
             array[j+1] = current;
         }
-        return array;
+        System.out.println(Arrays.toString(array));
     }
 }
+
+
+//https://proglib.io/p/java-sorting-algorithms

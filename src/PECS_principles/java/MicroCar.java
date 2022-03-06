@@ -1,3 +1,5 @@
+package PECS_principles.java;
+
 public class MicroCar extends SmartCar{
     private int i;
 
